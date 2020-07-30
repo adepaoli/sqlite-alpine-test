@@ -19,7 +19,8 @@ docker-compose up
 **Expected Results**
 
 ```
-Opening connection...
-Opened connection.
-Created table.
+1 - Opening connection ...
+2 - Connection opened.
+3 - Creating table ...
+4 - Table created."
 ```
