@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  sqlite-alpine-test:
+    image: sqlite-alpine-test:${TAG:-dev}
+    container_name: sqlite-alpine-test
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - DOTNET_CORE_TAG=3.1-alpine3.12
